@@ -1,0 +1,50 @@
+  Exo 0:
+  mkdir AMMI-git
+  
+  Ex0 1:
+  cd AMMI-git/
+  mkdir MEGNE-Ornela
+  
+  Exo 2:
+  cd ..
+  mkdir AMMI-first
+  
+  Exo 3:
+  mv AMMI-first AMMI-git
+  ls
+  
+  Exo 4:
+  cd AMMI-git/
+  touch identity.txt
+  
+  Exo 5:
+  gedit identity.txt
+  
+  Exo 6:
+  git init
+  git status
+  
+  Exo 7:
+  git config --global user.name "MEGNEOrnela"
+  git config --global user.email "pauline.o.m.choudja@aims.org"
+  
+  Exo 8:
+  git add identity.txt
+  git status
+  
+  Exo 9: 
+  git commit -m "First name"
+  
+  Exo 11:
+  git remote add connexion https://github.com/MEGNEOrnela/Git-Assignment.git
+  
+  Exo 12:
+  git remove -v
+  git remote add connexion  git@github.com:MEGNEOrnela/Git-Assignment.git
+  
+  Exo 13:
+  git branch
+  git push orign master
+  
+  ssh-keygen -t rsa -b 2048
+  
