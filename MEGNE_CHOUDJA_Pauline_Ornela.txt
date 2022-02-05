@@ -44,7 +44,6 @@
   
   Exo 13:
   git branch
-  git push orign master
-  
   ssh-keygen -t rsa -b 2048
-  
+  git push connexion master
+
