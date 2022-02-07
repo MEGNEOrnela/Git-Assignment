@@ -73,13 +73,4 @@
   417  ssh-keygen -t rsa -b 2048
   418  git remote add connexion git@github.com:MEGNEOrnela/Git-Assignment.git 
   419  git remote -v 
-  420  git push connexion master
-  421  git remove rm connexion1
-  422  git remote rm connexion1
-  423  git remote -v 
-  424  git remote rm MEGNE
-  425  git remote -v 
-  426  gedit MEGNE_CHOUDJA_Pauline_Ornela.txt
-  427  git add .
-  428  git commit -m "second commit"
-  429  git push connexion master
+  420  git push -u connexion master
