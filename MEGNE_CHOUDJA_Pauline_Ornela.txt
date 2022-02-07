@@ -1,49 +1,85 @@
-  Exo 0:
-  mkdir AMMI-git
-  
-  Ex0 1:
-  cd AMMI-git/
-  mkdir MEGNE-Ornela
-  
-  Exo 2:
-  cd ..
-  mkdir AMMI-first
-  
-  Exo 3:
-  mv AMMI-first AMMI-git
-  ls
-  
-  Exo 4:
-  cd AMMI-git/
-  touch identity.txt
-  
-  Exo 5:
-  gedit identity.txt
-  
-  Exo 6:
-  git init
-  git status
-  
-  Exo 7:
-  git config --global user.name "MEGNEOrnela"
-  git config --global user.email "pauline.o.m.choudja@aims.org"
-  
-  Exo 8:
-  git add identity.txt
-  git status
-  
-  Exo 9: 
-  git commit -m "First name"
-  
-  Exo 11:
-  git remote add connexion https://github.com/MEGNEOrnela/Git-Assignment.git
-  
-  Exo 12:
-  git remove -v
-  git remote add connexion  git@github.com:MEGNEOrnela/Git-Assignment.git
-  
-  Exo 13:
-  git branch
-  ssh-keygen -t rsa -b 2048
-  git push connexion master
-
+  345  mkdir AMMI-git
+  346  cd AMMI-git/
+  347  cd ..
+  348  mkdir AMMI-first
+  349  cd AMMI-git/
+  350  mkdir MEGNE-Ornela
+  351  cd ..
+  352  ls
+  353  mv AMMI-first AMMI-git
+  354  cd AMMI-git/
+  355  touch identity.txt
+  356  gedit 
+  357  git init
+  358  ls
+  359  ls -a
+  360  git config --global user.name "MEGNEOrnela"
+  361  git config --global user.email "pauline.o.m.choudja@aims.org"
+  362  git status
+  363  git add identity.txt
+  364  git status
+  365  git commit -m "commit1"
+  366  git remote add origin https://github.com/MEGNEOrnela/Git-Assignment.git
+  367  git remove -v
+  368  git remote -v
+  369  git branch
+  370  git push origin https://github.com/MEGNEOrnela/Git-Assignment
+  371  git push origin master
+  372  ssh-keygen -t rsa -b 2048
+  373  cd .ssh
+  374  ssh-keygen -t rsa -b 2048
+  375  git remote add MEGNE
+  376  git remote add MEGNE git@github.com:MEGNEOrnela/Git-Assignment.git
+  377* git 
+  378  git push new master
+  379  git push MEGNE master
+  380  ls
+  381  gedit identity.txt
+  382  git status
+  383  git add identity.txt
+  384  git push origin https://github.com/MEGNEOrnela/Git-Assignment.git
+  385  git remote -v
+  386  git push orign master
+  387  git push origin master
+  388  ssh-keygen -t rsa -b 2048
+  389  ls
+  390  gedit identity.txt
+  391  git add .
+  392  git commit -m "First name"
+  393  git push
+  394  git push --set-upstream origin master
+  395  ssh-keygen -t rsa -b 2048
+  396  git remote connexion1 https://github.com/MEGNEOrnela/Git-Assignment
+  397  git remote connexion1 https://github.com/MEGNEOrnela/Git-Assignment.git
+  398  git remote add connexion1 https://github.com/MEGNEOrnela/Git-Assignment.git
+  399  git remote add origin git@github.com:MEGNEOrnela/Git-Assignment.git
+  400  git remote add connexion  git@github.com:MEGNEOrnela/Git-Assignment.git
+  401  git remote -v
+  402  git push connexion 
+  403  git rm info
+  404  git push
+  405  ls
+  406  history > MEGNE_CHOUDJA_Pauline_Ornela.txt
+  407  ls
+  408  gedit MEGNE_CHOUDJA_Pauline_Ornela.txt
+  409  git status
+  410  git add .
+  411  git commit -m "second commit"
+  412  git push 
+  413  git push --set-upstream origin master
+  414  git remote add connexion  git@github.com:MEGNEOrnela/Git-Assignment.git
+  415  ssh-keygen -t rsa -b 2048
+  416  sudo git push --set-upstream origin master
+  417  ssh-keygen -t rsa -b 2048
+  418  git remote add connexion git@github.com:MEGNEOrnela/Git-Assignment.git 
+  419  git remote -v 
+  420  git push connexion master
+  421  git remove rm connexion1
+  422  git remote rm connexion1
+  423  git remote -v 
+  424  git remote rm MEGNE
+  425  git remote -v 
+  426  gedit MEGNE_CHOUDJA_Pauline_Ornela.txt
+  427  git add .
+  428  git commit -m "second commit"
+  429  git push connexion master
